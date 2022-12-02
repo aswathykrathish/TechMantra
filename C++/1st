@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+struct student
+{
+    int reg_no;
+    char name[20]
+    short ce;
+    short pe;
+    short te;
+};
+int main()
+{
+    student s;
+    int tot_score;
+    cout<<"Enter register number: ";
+    cin>>s.reg_no;
+    fflush(stdin);
+    cout<<"Enter name: ";
+    gets(s.name)
+    cout<<"Enter score in CE, PE and TE: ";
+    cin>>s.ce>>s.pe>>s.te;
+    cout<<"\nRegister Number: "<<s.reg_no;
+    cout<<"\nName of the Student: "<<s.name;
+    cout<<"\nCE Score: "<<s.ce<<"\tPE score: "<<s.pe<<"\tTE score: "<<s.te;
+    cout<<"\nTotal Score  : "<<tot_score;
+    return 0;
+}
+
