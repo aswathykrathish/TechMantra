@@ -9,7 +9,7 @@ document.querySelector('#form').onsubmit = () =>{
             function convert(){
                 return amount * rate;
             }
-            document.querySelector(".display-result").innerHTML = `${amount} ${base.toUpperCase()} equal to ${currencyTo} ${convert().toFixed(2)}`;
+            document.querySelector(".display-result").innerHTML = `${amount} ${base.toUpperCase()} = ${currencyTo} ${convert().toFixed(2)}`;
         })
         .catch((error) => {
             console.log("Error: ", error);
