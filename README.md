@@ -10,8 +10,8 @@ Currency Genius:
     
 Features:
 
-Currency converter
-Any currency can be selected
-e-commerce site
-can be implemented in other e-commerce sites
-currency exchange rates get updated automatically
+Currency converter,
+Any currency can be selected,
+e-commerce site,
+can be implemented in other e-commerce sites,
+currency exchange rates get updated automatically.
